@@ -132,6 +132,53 @@ ul.popular-list{margin-bottom:0px !important;}
 
         ul.popular-list img{float:left; width:134px; margin-right:15px; }
         ul.ad-list li{padding-left:3px;}
+  a#logo{
+    background: url(assets/logo.png);
+    background-size: 64px 48px;
+    background-repeat: no-repeat;
+    background-position: 1px center;
+    text-indent:0%;
+    text-align: right;
+    display: block;
+    color:white;
+    text-decoration: none;
+    font-size:14px; 
+    padding-top:18px;
+    padding-right:11px;
+  }
+
+@media (min-width: 728px){
+  a#logo {
+    background-size: 72px 54px;
+    font-size:18px;
+    padding-top:20px;
+    padding-right:13px;
+  }
+}
+ 
+@media (min-width: 1024px){
+  a#logo {
+    background-size: 80px 60px;
+    font-size:22px;
+    padding-top:22px;
+    padding-right:14px;
+  }
+}
+
+@media (min-width: 1240px){
+  a#logo {
+    background-size: 88px 66px;
+    padding-top:27px;
+    font-size:24px;
+    padding-right:18px;
+  }
+}
+
+
+li a.icon{
+  text-indent: 0%;
+}
+
 
     </style>
 </head>
@@ -155,7 +202,8 @@ ul.popular-list{margin-bottom:0px !important;}
       <div id="warning-container"><i data-reactroot=""></i></div>
   <header class="mod-header" data-immediate="data-immediate" data-mod="header">
     <div class="primary publication-theme-highlight">
-      <a href="http://media-tracker.com/path/out.php"  target="_blank" id="logo">Mayor</a><a class="icon" href="#"  id="hamburger">Load mobile navigation<span></span></a>
+      <a href="http://media-tracker.com/path/out.php"  target="_blank" id="logo">Nyheter</a>
+      <a class="icon" href="#"  id="hamburger">Load mobile navigation<span></span></a>
       <nav class="primary">
         <section>
           <ul data-level="1">
@@ -848,17 +896,24 @@ kodet for kun å fungere med binære valg, slik at maksbeløpet du kan handle fo
       <h4>KONTAKT</h4>
       <ul>
         <li>
-          <a class="icon facebook" href="http://media-tracker.com/path/out.php"  target="_blank" title="Facebook"></a>
+          <a class="icon facebook" href="http://facebook.com"  target="_blank" title="Facebook">
+            <i class="fab fa-facebook-f" style="    margin-top: 3px;    font-size: 35px;"></i>
+          </a>
         </li>
         <li>
-          <a class="icon twitter" href="http://media-tracker.com/path/out.php"  target="_blank" title="gorjeo"></a>
+          <a class="icon twitter" href="http://twitter.com"  target="_blank" title="gorjeo">
+          <i class="fab fa-twitter" style="    margin-top: 3px;    font-size: 35px;"></i></a>
         </li>
         <li>
-          <a class="icon pinterest" href="http://media-tracker.com/path/out.php"  target="_blank" title="interés"></a>
+          <a class="icon pinterest" href="http://pinterset.com"  target="_blank" title="interés">
+            <i class="fab fa-pinterest-p" style="    margin-top: 3px;    font-size: 35px;"></i></a>
+          </a>
         </li>
         <li>
-          <a class="icon instagram" href="http://media-tracker.com/path/out.php"  target="_blank" title="instagram"></a>
-        </li>
+          <a class="icon instagram" href="http://instagram.com"  target="_blank" title="instagram">
+            <i class="fab fa-instagram" style="    margin-top: 3px;    font-size: 35px;"></i></a>
+          </a>
+          </li>
       </ul>
     </div>
     <div class="kitemarks">
